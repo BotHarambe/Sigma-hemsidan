@@ -285,10 +285,13 @@ footer p:nth-child(2) {
 
 /* bilder */
 
+.gallerybody {
+  background-color: #000;
+}
 .gallery {
   max-width: 50%;
   margin: auto;
-  background-color: red;
+  background-color: rgb(4, 0, 255);
   border: #000 solid 3px;
 }
 
