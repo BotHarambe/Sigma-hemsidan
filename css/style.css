@@ -282,3 +282,19 @@ footer p:nth-child(2) {
   bottom: 35px;
   font-size: 14px;
 }
+
+/* bilder */
+
+.gallery {
+  max-width: 760px;
+  margin: auto;
+}
+
+.imgs img {
+  width: 100%;
+}
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
