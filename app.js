@@ -67,4 +67,17 @@ playAnim2();
 
 /////////////////////////////////////////////////////////////
 
-var main = document.querySelector
+var main = document.querySelector("#main");
+var imgs = document.querySelector(".imgs");
+var img = document.querySelectorAll(".imgs img");
+var opacity = 0.6;
+
+imgs.addEventListener("click", imgClick);
+
+function imgClick(e) {
+  img.forEach((img) => (img.getElementsByClassName.opacity = 1));
+
+  main.src = e.target.src;
+
+  e.target.style.opacity = opacity;
+}

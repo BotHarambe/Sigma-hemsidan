@@ -286,11 +286,13 @@ footer p:nth-child(2) {
 /* bilder */
 
 .gallery {
-  max-width: 760px;
+  max-width: 50%;
   margin: auto;
+  background-color: red;
+  border: #000 solid 3px;
 }
 
-.imgs img {
+.gallery img {
   width: 100%;
 }
 .imgs {
