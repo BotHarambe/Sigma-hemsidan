@@ -66,3 +66,5 @@ function playAnim2() {
 playAnim2();
 
 /////////////////////////////////////////////////////////////
+
+var main = document.querySelector
